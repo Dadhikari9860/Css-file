@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postion</title>
+    <style>
+        * {
+            /* margin: 0;
+            padding: 0; */
+        }
+ul{
+    background-color: red;
+
+}
+        li {
+            /* display: inline; */
+            /* list-style: square outside url("Screenshot\ 2023-10-02\ 102709.png"); */
+            
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            height: 70px;
+            z-index: 4;
+        }
+
+        p {
+            text-align: center;
+            border: 2px solid red;
+        }
+
+        .container {
+            background-color: aqua;
+            height: 50vh;
+            width: 50vw;
+            margin: auto;
+        }
+
+        .box {
+            height: 200px;
+            width: 200px;
+            background-color: yellow;
+            box-shadow: 5px 6px 10px rgb(67, 9, 18);
+            text-shadow: 1px 1.5px 2px red;
+            /* position: relative; */
+            position: fixed;
+            top: 2px;
+            left: 170px;
+            z-index: 1;
+        
+        }
+        .box2 {
+            height: 200px;
+            width: 200px;
+            background-color: yellow;
+            box-shadow: 5px 6px 10px rgb(67, 9, 18);
+            text-shadow: 1px 1.5px 2px red;
+            /* position:relative; */
+            /* top: 3px;
+            left: 4px; */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, quas nisi? Minima delectus reiciendis sint
+            facilis cum quibusdam voluptate quasi itaque accusantium, cupiditate ullam tempora nisi minus, expedita,
+            pariatur amet illo nihil eum voluptates!</p>
+        <div class="box">I am a box</div>
+        <div class="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, voluptatem molestias. Porro
+            atque qui aliquid necessitatibus ea cumque hic deleniti non commodi, alias at accusantium nihil autem
+            impedit maxime! Ipsum, corrupti. Illo, officiis beatae!</div>
+    </div>
+    <ul>
+        <li>apple</li>
+        <li>banana</li>
+        <li>orange</li>
+    </ul>
+</body>
+
+</html>
